@@ -1,0 +1,523 @@
+body{
+    /* background-color: rgb(48, 46, 46); */
+    /* font-family: 'Roboto', sans-serif; */
+    overflow-x: hidden;
+    margin: 0;
+}
+nav{
+    position: relative;
+    z-index: 1;
+}
+#lg{
+    position: absolute;
+   margin-left: 675px;
+   margin-top: 3px;
+}
+nav>p{
+    position: absolute;
+    color: white;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 1365px;
+    margin-top: 15px;
+}
+#hb{
+    position: absolute;
+    left: 1445px;
+    top: 10px;
+}
+#vd1{
+    /* position: absolute; */
+    /* width: 100%;
+    height: 720px; */
+    position: relative;
+    width: 100%;
+}
+.slogan{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 133px;
+    top: 260px;
+    /* background-color: rgb(145, 168, 168); */
+}
+.slogan h2 {
+    position: absolute;
+    color: yellow;
+    /* font-family: 'Formula1 Display', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 3.3rem;
+    letter-spacing: 12px;
+}
+.slogan p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 175px;
+    left: -5px;
+    line-height: 25px;
+}
+#book{
+    position: absolute;
+    background-color: yellow;
+    color: black;
+    top: 280px;
+    font-size: 1rem;
+    font-weight: bold;
+    /* height: 30px; */
+    width: 210px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+#visit{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 295px;
+    left: 275px;
+    font-size: 1.1rem;
+}
+.slogan img{
+    position: absolute;
+    top: 310px;
+    left: 460px;
+    height: 30px;
+}
+/* our models */
+.models{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 735px;
+    height: 270px;
+    width: 100%;
+    text-align: center;
+}
+.models h1{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    top: 60px;
+}
+.models p{
+    position: relative;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+/* model 1 */
+#eletre{
+    position: relative;
+    width: 100%;
+    top: 260px;
+}
+.eletre{
+    position: absolute;
+    background: linear-gradient(90deg, #000000cc, #16074e00 50%);
+    height: 740px;
+    width: 100%;
+    top: 1000px;
+}
+.eletxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 300px;
+    top: 1410px;
+    left: 128px;
+}
+.eletxt h1, .emitxt h1, .emetxt h1, .evitxt h1, .typtxt h1, .thetxt h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+#explr{
+    border: solid 1px rgb(255, 255, 255);
+    width: 130px;
+    padding: 17px;
+    margin-top: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#conf{
+    color: aliceblue;
+    margin-top: -55px;
+    margin-left: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.eletxt img, .emitxt img, .emetxt img{
+    position: absolute;
+    height: 20px;
+    top: 170px;
+    margin-left: 285px;
+}
+.black{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    top: 235px;
+}
+
+/* model2 */
+#emira{
+    position: relative;
+    width: 100%;
+    top: 235px;
+}
+.emira{
+    position: absolute;
+    background: linear-gradient(87deg, #000000c8, #16074e00 60%);
+    height: 745px;
+    width: 100%;
+    top: 1758px;
+}
+.emitxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 390px;
+    top: 2150px;
+    left: 128px;
+}
+.black2{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    top: 230px;
+} 
+/* model 3 */
+#emeya{
+    position: relative;
+    width: 100%;
+    top: 230px;
+}
+.emeya{
+    position: absolute;
+    background: linear-gradient(87deg, #000000c8, #16074e00 60%);
+    height: 740px;
+    width: 100%;
+    top: 2528px;
+}
+.emetxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 450px;
+    top: 2927px;
+    left: 128px;
+}
+.black3{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    top: 225px;
+}
+/* model 4 */
+#evija{
+    position: relative;
+    width: 100%;
+    top: 225px;
+}
+.evija{
+    position: absolute;
+    /* background: linear-gradient(90deg, #000000cc, #16074e00 50%); */
+    background: linear-gradient(87deg, #000000c8, #16074e00 60%);
+    height: 740px;
+    width: 100%;
+    top: 3297px;
+}
+.evitxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 450px;
+    top: 3667px;
+    left: 128px;
+}
+#space{
+    line-height: 25px;
+}
+.evitxt img{
+    position: absolute;
+    height: 20px;
+    top: 200px;
+    margin-left: 285px;
+}
+.black4{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    top: 220px;
+}
+/* model 5 */
+#type{
+    position: relative;
+    width: 100%;
+    top: 220px;
+}
+.type{
+    position: absolute;
+    background: linear-gradient(87deg, #000000c8, #16074e00 60%);
+    height: 740px;
+    width: 100%;
+    top: 4060px;
+}
+.typtxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 450px;
+    top: 4375px;
+    left: 128px;
+}
+.typtxt img{
+    position: absolute;
+    height: 20px;
+    top: 192px;
+    margin-left: 285px;
+}
+.black5{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    top: 215px;
+}
+/* model 6 */
+#theory{
+    position: relative;
+    width: 100%;
+    top: 215px;
+}
+.theory{
+    position: absolute;
+    /* background: linear-gradient(87deg, #00000021, #16074e00 60%); */
+    height: 740px;
+    width: 100%;
+    top: 4820px;
+}
+.thetxt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 490px;
+    top: 5170px;
+    left: 128px;
+}
+#caps{
+    text-transform: uppercase;
+}
+.thetxt img{
+    position: absolute;
+    height: 20px;
+    top: 192px;
+    margin-left: 285px;
+}
+
+/* last video */
+#vd2{
+    position: relative;
+    top: 210px;
+    width: 100%;
+}
+.slogan2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(47, 79, 79, 0);
+    color: white;
+    top: 5817px;
+    left: 128px;
+    height: 400px;
+}
+.slogan2 h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2.5px;
+    line-height: 35px;
+}
+.slogan2 p{
+    line-height: 30px;
+}
+#learn{
+    margin-top: 50px;
+    width: 170px;
+    padding: 12px;
+    border: solid 1px white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* Lotus bottom */
+.blkbtm{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 945px;
+    top: 205px;
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
+}
+.prt1{
+    position: absolute;
+    /* background-color: rgba(47, 79, 79, 0); */
+    width: 1270px;
+    height: 180px;
+    left: 130px;
+    text-align: center;
+}
+.prt1 img{
+    position: absolute;
+    height: 100px;
+    top: 45px;
+    left: 570px;
+}
+.prt1 hr{
+    position: relative;
+    top: 175px;
+    border: 1px solid rgb(251, 255, 0);
+}
+.prt2{
+    position: absolute;
+    background-color: rgba(41, 55, 69, 0);
+    height: 400px;
+    width: 350px;
+    top: 200px;
+    left: 130px;
+}
+.prt2 h1{
+    text-transform: uppercase;
+    color: rgb(251, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    line-height: 60px;
+}
+.prt2 p{
+    color: white;
+    line-height: 30px;
+    margin-top: -15px;
+}
+#kmi{
+    color: yellow;
+    border: solid 1px yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 175px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
+.prt3{
+    position: absolute;
+    /* background-color: rgb(27, 30, 35); */
+    display: flex;
+    color: white;
+    top: 455px;
+    left: 575px;
+}
+.modl{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 160px;
+}
+.modl h1, .abtl h1, .srvs h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: yellow;
+    font-size: 1.5rem;
+}
+.modl p, .abtl p, .srvs p{
+    line-height: 35px;
+}
+.abtl{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 100px;
+    margin-left: 10px
+}
+.srvs{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px
+}
+.prt4{
+    position: absolute;
+    top: 740px;
+    left: 130px;
+}
+.prt4 img{
+    height: 23px;
+    width: 23px;
+    border: solid 1px yellow;
+    margin-right: 8px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.prt5{
+    position: absolute;
+    color: white;
+    top: 820px;
+    left: 130px;
+}
+.prt5 hr{
+    margin-top: 20px;
+    width: 1270px;
+    border: 1px solid rgb(251, 255, 0);
+    border-bottom: 1px solid black;
+}
+.ftr{
+    display: flex;
+}
+.ftr p{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40px;
+    font-size: 0.73rem;
+    margin-top: 18px;
+}
+#ind{
+    margin-left: 815px;
+}
+.ftr img{
+    height: 28px;
+    margin-top: 12px;
+    margin-left: -28px;
+}
+.end{
+    position: relative;
+    background-color: white;
+    color: gray;
+    top: 205px;
+    height: 345px;
+    /* height: 230px; */
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
+}
+#end{
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 110px;
+    /* top: 200px; */
+    left: 130px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    text-align:justify;
+    font-weight: lighter;
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
+}
